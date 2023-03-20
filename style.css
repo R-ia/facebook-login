@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    background-color: rgb(230, 229, 229);
+    display: flex;
+    height:700px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin:2px;
+}
+.box{
+    width: 297px;
+    background-color: white;
+    height: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+}
+input{
+    width: 280px;
+    height: 22px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size:80px;
+    color: #1877f2;
+}
+.button button{
+    width: 294px;
+    height: 36px;
+    padding:5px;
+    background-color: #1877f2;
+    color: white;
+
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+hr{
+    margin-bottom: 20px;
+    
+}
+.button2 button{
+    width: 240px;
+    height:36px;
+    margin-left:32.5px;
+    background-color:  #42b72a;
+    color:white;
+}
+.quote{
+    width: 400px;
+}
+.link2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+}
+input{
+    border-radius: 6px;
+    border:1px solid grey; 
+}
+button{
+    border-radius:6px;
+    border:none;
+}
+@media (max-width:796px){
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:400px){
+    h2{
+        font-size: small;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    body{
+        width: 100%;
+    }
+
+}
